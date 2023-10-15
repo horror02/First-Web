@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+.user-pass{
+  width: 350px;
+  height: 500px;
+  background: linear-gradient(rgba(255, 255, 0, 0.736), transparent, rgba(255, 255, 255, 0.664));
+  color: #fff;
+  border-radius: 40px;
+  padding: 30px 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  
+}
+.user-pass:before{
+  background-image: url(./Brown-eggs.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  content: " ";
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  filter: blur(8px);
+}
+.user-pass .logo1{
+  width: 50px;
+  margin-left: 85px;
+}
+.user-pass .logo2{
+  width: 50px;
+  margin-bottom: 10px;
+}
+.user-pass h1{
+  font-size: 20px;
+  text-align: center;
+  color: black;
+
+} 
+.user-pass .input{
+  width: 150%;
+  height: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+ 
+}
+
+.input input{
+  width: 48%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  
+}
+.input input::placeholder{
+  color: black;
+}
+.user-pass .Forgot{
+  margin-left: 120px;
+  margin-top: 10px;
+}
+.user-pass .btn{
+  width: 50%;
+  height: 45px;
+  background: rgba(235, 235, 28, 0.723);
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 67px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.btn:hover{
+  opacity: 1;
+}
+
+
+.user-pass .registration{
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+}
+h2{
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+
