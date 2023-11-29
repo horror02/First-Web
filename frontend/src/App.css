@@ -111,5 +111,10 @@ h2{
   font-size: 15px;
   margin-top: 40px;
 }
+.user-pass .newpass{
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+}
 
 
